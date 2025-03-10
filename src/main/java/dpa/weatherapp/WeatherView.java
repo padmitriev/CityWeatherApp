@@ -246,7 +246,7 @@ public class WeatherView extends HorizontalLayout {
         ClassPathResource resource = new ClassPathResource(imagePath);
         if (!resource.exists()) {
             System.out.println("Не найден файл: " + imagePath);
-            return new Image(); // Возвращаем пустое изображение, если файл не найден
+            return new Image(); 
         }
 
         StreamResource streamResource = new StreamResource(resource.getFilename(), () -> {
