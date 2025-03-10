@@ -1,5 +1,6 @@
-package dpa.weather;
+package dpa.weatherapp;
 
+import com.google.gson.JsonObject;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
@@ -10,8 +11,8 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.StreamResource;
 import com.vaadin.flow.spring.annotation.UIScope;
-import dpa.weather.db.entity.WeatherRequest;
-import dpa.weather.db.service.WeatherService;
+import dpa.weatherapp.db.entity.WeatherRequest;
+import dpa.weatherapp.db.service.WeatherService;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -20,10 +21,8 @@ import org.json.JSONObject;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import weathersdk.CityWeatherSDK;
-import com.google.gson.JsonObject;
 
 import java.io.IOException;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;

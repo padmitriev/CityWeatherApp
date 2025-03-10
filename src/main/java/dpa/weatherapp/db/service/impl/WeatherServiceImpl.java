@@ -1,8 +1,8 @@
-package dpa.weather.db.service.impl;
+package dpa.weatherapp.db.service.impl;
 
-import dpa.weather.db.repository.WeatherRequestRepository;
-import dpa.weather.db.entity.WeatherRequest;
-import dpa.weather.db.service.WeatherService;
+import dpa.weatherapp.db.entity.WeatherRequest;
+import dpa.weatherapp.db.repository.WeatherRequestRepository;
+import dpa.weatherapp.db.service.WeatherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

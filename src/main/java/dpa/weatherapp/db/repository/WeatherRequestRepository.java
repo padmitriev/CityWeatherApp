@@ -1,6 +1,6 @@
-package dpa.weather.db.repository;
+package dpa.weatherapp.db.repository;
 
-import dpa.weather.db.entity.WeatherRequest;
+import dpa.weatherapp.db.entity.WeatherRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
