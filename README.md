@@ -12,6 +12,8 @@
    
    [CityWeatherApp Releases](https://github.com/padmitriev/CityWeatherApp/releases)
 
+   (API-ключ захардкожен)
+
 3. Запустите приложение:
 
    **java -jar weatherapp-0.0.1-SNAPSHOT.jar**
